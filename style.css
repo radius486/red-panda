@@ -1,0 +1,255 @@
+@font-face {
+  font-family: 'SansationRegular';
+  src: url('fonts/SansationRegular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/SansationRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/SansationRegular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/SansationRegular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/SansationRegular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/SansationRegular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'SansationItalic';
+  src: url('fonts/SansationItalic.eot'); /* IE9 Compat Modes */
+  src: url('fonts/SansationItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/SansationItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/SansationItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/SansationItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/SansationItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+  padding-top: 75px;
+  font-family: 'SansationRegular';
+}
+i, h2 {
+  font-family: 'SansationItalic';
+}
+.header_nav {
+  height: 75px;
+  background-color: #000000;
+}
+.header_nav .menu li a{
+  color: #bf1e2e;
+  font-size: 22px;
+  margin-top: 15px;
+  font-family: 'SansationItalic';
+}
+
+.logo img {
+  width: 198px;
+  height: 52px;
+}
+
+.block-one {
+  float: right;
+}
+.img-section_content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.img-section {
+  background: url('images/slide-1.jpg') no-repeat center;
+  background-size: cover;
+  max-height: 750px;
+  position: relative;
+  overflow: hidden;
+}
+.img-section:before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+}
+.relax-text {
+  color: #a6aaab;
+  font-size: 50px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  bottom: 0;
+  font-family: 'SansationItalic';
+}
+.menu-two {
+  color: #bf1e2e;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.list{
+  padding-left: 15px;
+}
+.products-section {
+  padding-top: 60px;
+  background-color: #000000;
+}
+.img-wrapper {
+  max-width: 380px;
+  max-height: 380px;
+  margin-right: 40px;
+  float:right;
+}
+.buy-wrapper {
+  max-width: 380px;
+  margin-right: 40px;
+  float:right;
+  width: 100%;
+}
+.text-wrapper {
+  max-width: 380px;
+  margin-left: 40px;
+}
+.buy {
+  display: block;
+  background: url(images/paw.png) no-repeat 0px -80px;
+  font-size: 0px;
+  width: 100px;
+  height: 90px;
+  margin-left: 150px;
+  margin-top: 15px;
+  cursor: pointer;
+  background-size: 100%;
+}
+.buy:hover {
+  background-position: 0 6px;
+}
+.social-icons {
+  font-size: 0px;
+  text-align: center;
+  margin-top: 40px;
+}
+.social-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: url(images/social-icons.svg) no-repeat;
+}
+.social-icon--facebook {
+  margin-right: 10px;
+  background-position: 0 0;
+}
+.social-icon--facebook:hover {
+  background-position: 0px -84px;
+}
+.social-icon--instagram {
+  margin-right: 10px;
+  background-position: -69px 0;
+}
+.social-icon--instagram:hover {
+  background-position: -69px -84px;
+}
+.social-icon--mail {
+  background-position: -138px 0;
+}
+.social-icon--mail:hover {
+  background-position: -138px -84px;
+}
+.col--footer {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.text-collapsed {
+  max-height: 480px;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.2s ease-in;
+}
+
+.text-collapsed.active {
+  max-height: 1000px;
+}
+
+.text-collapsed.active .read-more{
+  display: none;
+}
+
+.read-more {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  color: #fff;
+  padding-top: 20px;
+  font-size: 15px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+58&0+0,1+59 */
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.98) 58%, rgba(0,0,0,1) 59%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.98) 58%,rgba(0,0,0,1) 59%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.98) 58%,rgba(0,0,0,1) 59%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+.read-more:visited {
+  color: #fff;
+}
+.footer {
+  background-color: #000000;
+}
+@media (max-width: 767px) {
+  .buy-wrapper,
+  .img-wrapper {
+    margin: 0 auto 40px;
+    float: none;
+  }
+  .text-wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .relax-text {
+    font-size: 36px;
+    height: 70px;
+    line-height: 70px;
+  }
+  .buy {
+    margin-top: 0;
+  }
+  .header_nav .menu {
+    background-color: #000000;
+  }
+  .desktop-menu {
+    display: none;
+  }
+  .block-one {
+    float: none;
+    background: #000;
+    position: relative;
+  }
+  .custom-toggler {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+}
+
+@media (max-width: 480px) {
+  .relax-text {
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+  }
+  .buy {
+    margin: 0 auto;
+  }
+}
