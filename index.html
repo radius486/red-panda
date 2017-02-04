@@ -8,6 +8,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="js/jquery-3.1.1.min.js"></script>
   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="js/smoothproducts.min.js"></script>
+  <script src="js/gallery.js"></script>
   <script src="js/scripts.js"></script>
 </head>
 <body>
@@ -56,13 +58,44 @@
       <h2 class="menu-two">Products</h2>
       <div class="row">
         <div class="col-xs-12 col-sm-6">
-          <div class="img-wrapper">
-            <img class="products-img img-responsive" src="images/product.jpg">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="img-wrapper">
+              <div class="carousel-inner sp-wrap">
+                <div class="sp-loading"><img src="images/sp-loading.gif" alt=""><br>LOADING IMAGES</div>
+                <div class="item active srle">
+                  <a href="images/01-hammock_straps.jpg">
+                    <img src="images/01-hammock_straps.jpg" alt="1.jpg" class="img-responsive">
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="images/02-hammock_tree_straps.jpg">
+                    <img src="images/02-hammock_tree_straps.jpg" alt="2.jpg" class="img-responsive">
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="images/03-cam_buckle.jpg">
+                    <img src="images/03-cam_buckle.jpg" alt="3.jpg" class="img-responsive">
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="images/04-eno_hammock.jpg">
+                    <img src="images/04-eno_hammock.jpg" alt="4.jpg" class="img-responsive">
+                  </a>
+                </div>
+                <div class="item">
+                  <a href="images/05-red_panda.jpg">
+                    <img src="images/05-red_panda.jpg" alt="5.jpg" class="img-responsive">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
+
           <div class="buy-wrapper">
             <a class="buy" href="https://www.amazon.com/dp/B01NCN3LC1">Buy Now</a>
           </div>
         </div>
+
         <div class="col-xs-12 col-sm-6">
           <div class="text-wrapper text-collapsed">
             <p>RED PANDA Outdoors HOLDFAST Hammock Straps – Top Notch tree suspension system</p>

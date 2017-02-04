@@ -1,3 +1,5 @@
+@import 'gallery.css';
+
 @font-face {
   font-family: 'SansationRegular';
   src: url('fonts/SansationRegular.eot'); /* IE9 Compat Modes */
@@ -89,8 +91,9 @@ i, h2 {
 }
 .img-wrapper {
   max-width: 380px;
-  max-height: 380px;
+  /*max-height: 380px;*/
   margin-right: 40px;
+  padding: 0;
   float:right;
 }
 .buy-wrapper {
