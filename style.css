@@ -32,6 +32,7 @@ i, h2 {
 .header_nav {
   height: 75px;
   background-color: #000000;
+  z-index: 99;
 }
 .header_nav .menu li a{
   color: #bf1e2e;
